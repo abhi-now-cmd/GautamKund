@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.major{
+    background-color: rgb(255, 153, 0);
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20210806/pngtree-abstract-simple-texture-orange-background-image_757833.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no repeat;
+    width: 860px;
+    height: 520px;
+    margin-inline:200px;
+    margin-block: 20px;
+    padding-top:20px;
+    border: solid brown 2px;
+    
+}
+
+.heading h1{
+    font-size: 48px;
+    text-align: center;
+    color: rgb(157, 2, 2);
+    font-weight: 1000;
+    text-shadow: 2px 2px 0px white;
+    
+}
+.heading h4{
+    text-align: center;
+    padding-bottom: 2px;
+}
+.heading h5{
+    text-align: center;
+    padding-bottom: 2px;
+}
+.heading h2{
+    text-align: center;
+    background-color: brown;
+    color: white;
+    border: solid brown 2px;
+    border-radius: 20px;
+    padding: 2px;
+    margin-inline: 25%; 
+    font-size: 22px;
+    margin-block: 2px;
+    text-shadow: 2px 2px 0px rgb(78, 20, 20);
+}
+.frame{
+    margin: 20px 30px 20px 10px;
+    margin-top: 0px;
+    padding: 20px;
+    background-color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    
+    
+}
+.frame div b{
+    color: red;
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+    margin-left: 40px;
+}
+.border{
+    float: right;
+    margin-right: 50px;
+    background-color:white;
+    font-size: 18px;
+    padding-top: 16px;
+}
+.border div{
+    border-bottom: 2px dotted black;
+    margin-left: 10px;
+    margin-right:50px;
+    width: 450px;
+    padding-bottom: 2px;
+    margin-top: 10px;
+}
+#sno{
+    border-bottom: 2px dotted black;
+    margin-left: 10px;
+    margin-right:50px;
+    width: 50px;
+    font-weight: 600;
+    padding-bottom: 2px;
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(251, 28, 28);
+}
+#date{
+    display: inline-block;
+    border-bottom: 2px dotted black;
+    margin-left: 10px;
+    margin-right:50px;
+    width: 80px;
+    font-weight: 600;
+    padding-bottom: 2px;
+    margin-top: 15px;
+    text-align: center;
+    
+}
+.frame div{
+    margin-left: 10px;
+    margin-block:10px;
+}
+.bottom{
+    margin: 20px 30px 20px 25px;
+}
+.amount{
+    float: left;
+    background-color: skyblue;
+    padding-block:7px;
+    padding-inline:5px;
+    width: 200px;
+    height: 60px;
+    color: red;
+    font-weight: 500;
+    font-size: 28px;
+    border: solid rgb(123, 188, 213) 2px;
+}
+.signature{
+    float: right;  
+}
+.signature figure img{
+    width: 160px;
+    border-radius: 0px;
+}
+img{
+    border-radius: 30px 30px 0px 0px;
+}

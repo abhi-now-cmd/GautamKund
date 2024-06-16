@@ -1,0 +1,237 @@
+@media screen and (max-width:1105px) {
+    canvas {
+        transform: scale(0.7);
+    }
+    :root {
+        font-size: 9px;
+    }
+    .ashir-text {
+        width: 80%;
+    }
+    .Timing-table {
+        width: 80%;
+    }
+    .pngdecor img {
+        width: 250px;
+    }
+    .popup-container {
+
+        inset: 2rem 5rem;
+        
+    }
+    .popup-content {
+        left: 0px;
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (max-width:815px) {
+    :root {
+        font-size: 8px;
+    }
+    .Timing-table {
+        width: 80%;
+    }
+    .pngdecor img {
+        width: 220px;
+    }
+    nav ul{
+        display: none;
+    }
+    .Hamburger {
+        display: block;
+        cursor: pointer;
+        
+    }
+    .line {
+        border: 1.25px solid teal;
+        width: 10px;
+        margin-top: 2.5px;
+    }
+    
+    .header-container {
+        justify-content: space-between;
+    }
+    .hamburger-menu {
+        position: absolute;
+        right: -150px;  
+        top:100%;
+        height: 100vh;
+        font-size: 1.35rem;
+        backdrop-filter: blur(10px);
+        display: flex;
+        transition: 0.4s;
+        justify-content: flex-end;
+        background-color: rgb(255,255,255,0.8);    
+    }
+    body {
+        width: 100%;
+        
+    }
+    
+    .Hamburger {
+        
+    }
+    .hamburger-menu-visible {
+        right: 0px;  
+    }
+    .line {
+        transition: 1s;
+    }
+    .line2-active{
+        display: none;
+    }
+    .line1-active {
+        transform-origin: center;
+        transform: translateY(2.6px);
+        rotate: 45deg;
+    }
+    .line3-active {
+        transform-origin: center;
+        transform: translateY(-2.6px);
+        rotate: -45deg;
+    }
+    
+    .hamburger-menu-elem {
+        display: flex;
+        flex-direction: column;
+    }
+    .hamburger-menu-elem ul {
+        list-style-type: none;
+    }
+    .hamburger-menu-elem a {
+        text-decoration: none;
+        color:teal
+    }
+    .hamburger-menu-elem .active-nav {
+        border-bottom: none;
+        color:rgb(1, 93, 93);
+        margin-right: 10px;
+    }
+    .active-nav::before {
+        content: '>';
+    }
+    
+    .hamburger-menu-elem li {
+        display: block;
+        padding: 1rem 2rem;
+        margin-top: 10px;
+    }
+    .top {
+        display: none;
+    }
+    .landing-section .center-content span {
+        display: inline-block;
+        
+        
+    }
+    .pngdecor {
+        display: none;
+    }
+    .sec-1-ashir {
+        line-height: 150%;
+    }
+    .border-flower {
+        border-width: 25px;
+    }
+    .Timing-table {
+        width: 100%;
+        vertical-align: middle;
+        text-align: center;
+        border-width: 20px;
+        line-height: 250%;
+    }
+    td {
+        font-size: 1.25rem;
+    }
+    .dec-heading-red {
+        font-size: 2rem;
+    }
+    .ganesh {
+        flex-basis: 15px;
+        
+    }
+    .ganesh img {
+        z-index: 1;
+        width: 70px;
+        position: absolute;    
+        right: 41px;
+    }
+    .flexbox {
+        flex-direction: column;
+    }
+    .ganesh-aside {
+        width: 80%;
+        z-index: 2;
+        padding: 0;
+    }
+    .bgwhite {
+        background-size: 8%;
+    }
+    #photo-gallery {
+        padding: 0;
+
+    } 
+    .desc  {
+        flex-direction: column;
+    }
+    .desc-flexbox  {
+        flex-direction: column;
+    }
+    .desc-flexbox img {
+        width: 70%;
+        margin-bottom: 25px;
+    }
+    .biogc p {
+        font-size: 1.45rem;
+    }
+    .biogc h1 {
+        font-size: 2.15rem;
+    }
+    .travel-medium {
+        flex-direction: column;
+    }
+    .map {
+        margin-top: 10px;
+    }    
+    .pos-abs-container h2 {
+        font-size: 1.35rem;
+    }
+    .pos-abs-container p {
+        font-size: 1rem;
+    }
+    .filter-options {
+        width: 90%;
+        gap:2px;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .filter-option {
+        display: flex;
+        align-items: center;
+    }
+    
+    .popup-container {
+        font-size: 1.25rem;
+        inset: 2rem 0rem;
+        
+    }
+    .popup-content {
+        left: 0px;
+        flex-direction: column;
+    }
+    .popup-content > div {
+        border: none!important;
+    }    
+    #qr {
+        width: 80%;
+    }
+    .bg-sec {
+        background-color: orangered;
+    }
+    canvas {
+        transform: scale(0.3);
+    }
+}
+

@@ -1,0 +1,133 @@
+*body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+.temple{
+    float: left;
+    width:150px;
+    height: 150px;
+    margin-left:30px;
+    margin-top:10px;
+}
+.paper{
+    width: 800px;
+    margin:auto;
+    padding: 0px;
+    border: solid rgb(233, 152, 2) 4px;
+    /* border-top: solid orange 15px; */
+    border-bottom: solid rgb(233, 152, 2) 40px;
+    background-color: rgb(249, 235, 211);
+    border-radius: 15px;
+}
+.heading{
+    text-align: center;
+    background-color: rgb(249, 225, 184);
+    border-radius:15px;
+}
+.heading h1{
+    color: blue;
+    margin: 0;
+    font-size: 41px;
+    text-shadow: 3px 3px 0px rgb(243, 243, 244);
+    font-weight: 600;
+    padding-top: 20px;
+}
+.heading h2{
+    background-color: rgb(214, 1, 1);
+    color: white;
+    border-radius: 40px;
+    display: inline-block;
+    padding-inline:15px;
+    padding-block:6px;
+    margin: 0;
+    text-shadow: 2px 2px 0px black;
+
+}
+.heading h3{
+    margin: 0;
+    padding-block: 2px;
+}
+.heading h4{
+    padding-block: 1.5px;
+    margin: 0;
+    padding-bottom: 8px;
+}
+.body{
+    height: 800px;
+    border-top: solid orange  4px;
+    
+}
+
+.date{
+    float: right;
+    margin-right: 90px;
+    margin-top: 30px;
+    font-weight: bolder;
+    color: blue;
+    font-size: 20px;
+}
+.paper1{
+    margin-top: 30px;
+    padding-left: 30px;
+    font-weight: bolder;
+    float: left;
+    color: blue;
+    font-size: 20px;
+}
+.floating{
+    float: left;
+    width:200px;
+    height: 650px;
+    border-right: solid orange 4px;
+    padding-top: 150px;
+    text-align: center;
+    display: overflow;
+    
+}
+.box{
+    float: left;
+    width:180px;
+    height:120px;
+    padding-left: 10px;
+    padding-block: 0px;
+    line-height: 1.5;
+}
+.star{
+   width:30px;
+
+}
+.text_red{
+    color: red;
+    font-weight: bold;
+}
+.text_blue{
+    color: blue;
+}
+.footer{
+    height: 50px;
+    background-color: orange;
+    background-image: url("https://t3.ftcdn.net/jpg/04/38/88/44/360_F_438884479_rkJE00YsXOH3ly8RRoczjDCfqknc2ggj.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-inline: 20px;
+    
+}
+.notice {
+    margin-top: 60px;
+    padding: 50px 30px 0px 230px;
+    
+    text-align: justify;
+    line-height: 1.6;
+    margin-top: 20px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-weight: 500;
+}
